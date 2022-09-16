@@ -11,7 +11,7 @@ for i in range(255):
   
 #print(c)
 
-x=cv2.imread("test.jpg")
+x=cv2.imread("sharan_edited.jpg")
 
 i=x.shape[0]
 j=x.shape[1]
@@ -36,8 +36,8 @@ for i in range(l):
                 #whatever be the value of z , z=(z+1)%3 will always between 0,1,2 . The same concept is used for random number in dice and card games.
     kl=(kl+1)%len(key)
     
-cv2.imwrite("test_encrypted.jpg",x) 
-os.startfile("test_encrypted.jpg")
+cv2.imwrite("sharan_encrypted.jpg",x) 
+os.startfile("sharan_encrypted.jpg")
 print("Data Hiding in Image completed successfully.")
 #x=cv2.imread(“encrypted_img.jpg")
     
